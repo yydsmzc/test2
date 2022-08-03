@@ -18,4 +18,8 @@ public class StringUtils {
     public String da(String str){
         return str == null?null:str.toUpperCase();
     }
+    //转XIAO
+    public String xiao(String str){
+        return str == null?null:str.toLowerCase();
+    }
 }
